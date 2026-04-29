@@ -3,8 +3,7 @@
  * All fetch calls use async/await and send Authorization headers.
  */
 
-const BASE_URL = 'http://localhost:5000/api';
-
+const BASE_URL = 'http://13.62.103.61:5000/api';
 /**
  * Internal helper: performs a fetch request and returns parsed JSON.
  * Throws an error object with `message` on non-2xx responses.
